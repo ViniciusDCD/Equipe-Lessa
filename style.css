@@ -1,0 +1,96 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #000000;
+      color: #ffffff;
+    }
+    header {
+      background: yellow;
+      color: white;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header h1 img {
+        width: 100px; 
+        height: auto; 
+        vertical-align: middle; 
+        margin-right: 10px; 
+        border-radius: 50%;
+    }
+
+    header p {
+      margin: 20px 0;
+      font-size: 1.2em;
+    }
+    .cta-button {
+      background: #000000;
+      color: #ffffff;
+      padding: 15px 25px;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      width: 120px;
+      height: 100px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #fff202;
+    }
+    .course-box {
+      background: rgb(0, 0, 0);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #003f7f;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+      text-align: center;
+    }
+    .contact-box {
+        color: #000000;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .phone-number {
+      font-size: 1.4em;
+      color: #005eb8;
+      margin-top: 10px;
+    }
+    /* Responsivo */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
